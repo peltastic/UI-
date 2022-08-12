@@ -1,0 +1,7 @@
+<svg id="btn_play" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Ellipse_7" data-name="Ellipse 7" fill="#f7e7ce" stroke="#713c25" stroke-width="31" stroke-dasharray="1 4" opacity="0.45">
+    <circle cx="28" cy="28" r="28" stroke="none"/>
+    <circle cx="28" cy="28" r="12.5" fill="none"/>
+  </g>
+  <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M11.6,5.872,1.98.182A1.305,1.305,0,0,0,0,1.311V12.688a1.311,1.311,0,0,0,1.98,1.129L11.6,8.13A1.311,1.311,0,0,0,11.6,5.872Z" transform="translate(22.875 20.998)" fill="#713c25"/>
+</svg>
