@@ -32,7 +32,7 @@ function SectionSix() {
   ];
   return (
     <section className="mt-[20rem] w-full">
-      <div className=" mx-auto w-[80%] -mt-[15rem] justify-center items-end flex">
+      <div className=" mx-auto w-full sm:w-[80%] -mt-[15rem] justify-center items-end flex">
         <h1 className="text-primary text-4xl text-right">
           <span>Peter Do Announces His First New York</span>
           <br />
@@ -46,19 +46,23 @@ function SectionSix() {
         </div>
       </div>
       <div className="mx-auto pl-[10rem] w-auto">
-        <h1 className="mt-[25rem] flex items-start">
-          <span className="text-[6rem] ml-16 text-primary">FOR.</span>
-          <span className="text-[13rem] block -mt-[3rem] ml-12 text-color2">
+        <h1 className="mt-[15rem] sm:mt-[25rem] flex items-start">
+          <span className="text-[4rem] sm:text-[6rem] ml-16 text-primary">
+            FOR.
+          </span>
+          <span className="text-[7rem] sm:text-[13rem] block mt-0 mid2:-mt-[3rem] ml-6 sm:ml-12 text-color2">
             future
           </span>
         </h1>
         <div className="">
-          <h1 className="text-color1 text-[29rem] -mt-[19rem]">Couture</h1>
-          <p className="text-primary text-right mr-[25rem] text-3xl -mt-[6rem]">
+          <h1 className="text-color1 text-[15rem] sm:text-[20rem] mid2:text-[29rem] -mt-[9rem] sm:-mt-[12rem] mid2:-mt-[19rem]">
+            Couture
+          </h1>
+          <p className="text-primary mb-[4rem] sm:mb-0 text-right mr-[25rem] sm:mr-[45rem] mid2:mr-[25rem] text-3xl -mt-[3rem] mid2:-mt-[6rem]">
             LATEST COLLECTIONS
           </p>
         </div>
-        <p className="text-primary text-5xl mt-6">
+        <p className="text-primary text-3xl sm:text-5xl mt-6">
           <span>With the young leading the charge against giant</span>
           <br />
           <span>corporations, the appeal of small labels with big</span>
@@ -67,22 +71,22 @@ function SectionSix() {
         </p>
       </div>
 
-      <div className="w-full flex px-[10rem] justify-around mt-[5rem] ">
+      <div className="w-full flex px-[5rem] sm:px-[10rem] justify-around mt-[5rem] ">
         {cartData.map((item, index) => {
           return (
             <div
               key={index}
-              className={`${item.class} w-[30%] bg-color2 h-[65rem] max-h-[1000px]  relative `}
+              className={`${item.class} w-[30%] bg-color2 h-[45rem] sm:h-[65rem] max-h-[1000px]  relative `}
             >
               {item.shadow ? (
                 <div className="bg-[#7070702e] w-full h-full absolute -left-[3rem] -bottom-[3rem] z-[-1]"></div>
               ) : null}
               <div className="absolute right-0 top-0  w-[80%]">
-                <div className="absolute -left-[10rem] top-[8rem]">
+                <div className="absolute -left-[7rem] sm:-left-[10rem] top-[8rem]">
                   <p
                     className={`${
                       item.color ? null : "opacity-30"
-                    } -rotate-90  text-color1 text-[10rem]`}
+                    } -rotate-90  text-color1 text-[7rem] sm:text-[10rem]`}
                   >
                     {item.year}
                   </p>
@@ -90,15 +94,14 @@ function SectionSix() {
                 <img src={item.Image} alt="" className="w-full h-full" />
                 {item.collection ? (
                   <>
-                    <div className="text-primary -ml-[2rem] -mt-[10rem]">
+                    <div className="text-primary -ml-[2rem] -mt-[5rem] sm:-mt-[10rem]">
                       <p className="ml-[4rem]">Check out tour</p>
-                      <p className="text-[5rem]">Collection</p>
+                      <p className="text-[3rem] sm:text-[5rem]">Collection</p>
                     </div>
                     <div className="w-full mt-8 px-8 flex justify-end">
                       <svg
+                      className="w-32"
                         xmlns="http://www.w3.org/2000/svg"
-                        width="68.204"
-                        height="25.408"
                         viewBox="0 0 68.204 25.408"
                       >
                         <g id="ico_arrow" transform="translate(-462 -8921.796)">

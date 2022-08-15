@@ -6,10 +6,10 @@ function Footer() {
       <div className="absolute top-0 z-[-1] left-0">
         <img src={FooterImg} alt="" className="w-full" />
       </div>
-      <h1 className=" relative z-0 tracking-widest text-color2 opacity-60 text-[40rem] mid2:text-[45rem]">
+      <h1 className=" relative z-0 tracking-widest text-color2 opacity-60 text-[20rem] sm:text-[30rem] sm2:text-[40rem] mid2:text-[45rem]">
         FOR.
       </h1>
-      <div className="flex items-center mx-[4rem]  -mt-[23rem] mb-8">
+      <div className="flex items-center mx-[4rem] -mt-[10rem]  sm:-mt-[23rem] mb-8">
         <div className="w-[1.5rem] h-[1.5rem] ml-[5rem] bg-color1 mr-4"></div>
         <h2 className="text-2xl relative z-10">CRAFTMANSHIP</h2>
       </div>

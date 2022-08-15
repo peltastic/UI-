@@ -18,7 +18,7 @@ function SectionTwo() {
       <div className="absolute top-0 z-[-1]">
         <img src={SectionTwoImg} alt="" className="w-full" />
       </div>
-      <div className="relative mt-[20rem] px-[10rem] z-10">
+      <div className="relative mt-[5rem] xs:mt-[20rem] px-[5rem] sm:px-[10rem] z-10">
         <div className="flex items-center mb-8">
           <div className="w-[1.5rem] h-[1.5rem] bg-color1 mr-4"></div>
           <p className=" text-primary text-2xl relative block z-10">
@@ -26,7 +26,7 @@ function SectionTwo() {
           </p>
         </div>
 
-        <h1 className="text-primary text-[11rem] ml-[5rem] lh-2">
+        <h1 className="text-primary text-[4rem] xs:text-[6rem] sm2:text-[11rem] ml-[1rem] mid:ml-[5rem] lh-2">
           <span>Real Women</span>
           <br />
           <span>Fashion State,</span>
@@ -38,9 +38,9 @@ function SectionTwo() {
           <span>male</span>
         </h1>
 
-        <div className="flex mb-[70rem] mt-24 w-[70%] text-primary">
-          <div className=" border-r border-color1 w-[50%] pt-2 pb-[6rem] pr-[4rem]">
-            <p className="text-right text-2xl">
+        <div className="flex flex-wrap mb-[70rem] mt-24 w-full sm:w-[85%] mid2:w-[70%] text-primary">
+          <div className=" flex items-center xs:block xs:border-r border-color1 w-full xs:w-[50%] pt-2 pb-[6rem] pr-[4rem]">
+            <p className=" mr-[3rem] xs:mr-0 text-left xs:text-right text-2xl">
               <span>Still, what we never reckoned with then was the</span>
               <br />
               <span>notion that the achievement of women designers</span>
@@ -61,7 +61,7 @@ function SectionTwo() {
               Discover More
             </button>
           </div>
-          <div className="pl-[4rem]  pb-[6rem]">
+          <div className="pl-0 xs:pl-[4rem]  pb-[6rem]">
             <h1 className="text-[3rem]">
               <span>They're defying the</span>
               <br />
