@@ -4,9 +4,9 @@ import MarkImg from "../../assets/women/doublemark.svg";
 
 function SectionFour() {
   return (
-    <section className="bg-color1 text-color2 mt-[2rem] mid2:mt-[30rem] mid:mt-[40rem] relative  h-[60vh] mid:h-[80vh] xl:h-screen overflow-hidden">
+    <section className="bg-color1 text-color2 mt-[2rem] mid2:mt-[30rem] mid:mt-[40rem] relative h-auto xxs:h-[60vh] mid:h-[80vh] xl:h-screen overflow-hidden">
       <div className="w-full mt-[10rem] text-center">
-        <h1 className="text-[4rem]">
+        <h1 className="text-[3rem] xxs:text-[4rem]">
           <span>I think there is beauty in everything</span>
           <br />
           <span>What 'normal' people perceive as</span>

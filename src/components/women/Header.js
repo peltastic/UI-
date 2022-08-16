@@ -33,7 +33,7 @@ function Header() {
       <div className="absolute top-0 right-[50%] translate-x-[50%] sm2:translate-x-0 sm2:right-[3rem] w-[12rem]">
         <img src={BadgeImg} alt="badge" className="w-full" />
       </div>
-      <div className="absolute bottom-[4rem] flex left-[1rem] xs:right-[1rem]">
+      <div className="absolute bottom-[4rem] flex xs:right-[1rem]">
         <div className="w-[10rem] mr-[3rem]">
           <img src={videoImg} alt="badge" className="w-full" />
         </div>

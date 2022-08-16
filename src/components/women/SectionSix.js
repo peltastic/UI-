@@ -33,36 +33,36 @@ function SectionSix() {
   return (
     <section className="mt-[20rem] w-full">
       <div className=" mx-auto w-full sm:w-[80%] -mt-[15rem] justify-center items-end flex">
-        <h1 className="text-primary text-4xl text-right">
+        <h1 className="text-primary text-3xl xs:text-4xl text-right">
           <span>Peter Do Announces His First New York</span>
           <br />
           <span>Fahion Week Runaway Show</span>
         </h1>
-        <div className="w-[40rem] relative ml-12">
+        <div className=" w-[30rem] sm:w-[40rem] relative ml-12">
           <img src={SectionSixImg} alt="six" className="w-full" />
           <div className="absolute bottom-4 right-4 w-16">
             <img src={PlayImg} alt="play" className="w-full" />
           </div>
         </div>
       </div>
-      <div className="mx-auto pl-[10rem] w-auto">
+      <div className="mx-auto pl-4 xxs:pl-[10rem] w-auto">
         <h1 className="mt-[15rem] sm:mt-[25rem] flex items-start">
-          <span className="text-[4rem] sm:text-[6rem] ml-16 text-primary">
+          <span className="text-[3rem] xxs:text-[4rem] sm:text-[6rem] ml-16 text-primary">
             FOR.
           </span>
-          <span className="text-[7rem] sm:text-[13rem] block mt-0 mid2:-mt-[3rem] ml-6 sm:ml-12 text-color2">
+          <span className="text-[5rem] xxs:text-[7rem] sm:text-[13rem] block mt-0 mid2:-mt-[3rem] ml-6 sm:ml-12 text-color2">
             future
           </span>
         </h1>
         <div className="">
-          <h1 className="text-color1 text-[15rem] sm:text-[20rem] mid2:text-[29rem] -mt-[9rem] sm:-mt-[12rem] mid2:-mt-[19rem]">
+          <h1 className="ml-11 xxs:ml-0 text-color1 text-[9rem] xxs:text-[15rem] sm:text-[20rem] mid2:text-[29rem] -mt-[6rem] xxs:-mt-[9rem] sm:-mt-[12rem] mid2:-mt-[19rem]">
             Couture
           </h1>
-          <p className="text-primary mb-[4rem] sm:mb-0 text-right mr-[25rem] sm:mr-[45rem] mid2:mr-[25rem] text-3xl -mt-[3rem] mid2:-mt-[6rem]">
+          <p className="text-primary mb-[4rem] sm:mb-0 text-right mr-[25rem] sm:mr-[45rem] mid2:mr-[25rem] text-3xl mt-0 xxs:-mt-[3rem] mid2:-mt-[6rem]">
             LATEST COLLECTIONS
           </p>
         </div>
-        <p className="text-primary text-3xl sm:text-5xl mt-6">
+        <p className="text-primary ml-[5rem] xxs:ml-0 text-2xl xxs:text-3xl sm:text-5xl mt-6">
           <span>With the young leading the charge against giant</span>
           <br />
           <span>corporations, the appeal of small labels with big</span>
@@ -71,15 +71,15 @@ function SectionSix() {
         </p>
       </div>
 
-      <div className="w-full flex px-[5rem] sm:px-[10rem] justify-around mt-[5rem] ">
+      <div className="w-full flex px-1 xxs:px-[5rem] sm:px-[10rem] justify-around mt-[5rem] ">
         {cartData.map((item, index) => {
           return (
             <div
               key={index}
-              className={`${item.class} w-[30%] bg-color2 h-[45rem] sm:h-[65rem] max-h-[1000px]  relative `}
+              className={`${item.class} w-[30%] bg-color2 h-[40rem] xxs:h-[45rem] sm:h-[65rem] max-h-[1000px]  relative `}
             >
               {item.shadow ? (
-                <div className="bg-[#7070702e] w-full h-full absolute -left-[3rem] -bottom-[3rem] z-[-1]"></div>
+                <div className="bg-[#7070702e] hidden xxs:block w-full h-full absolute -left-[3rem] -bottom-[3rem] z-[-1]"></div>
               ) : null}
               <div className="absolute right-0 top-0  w-[80%]">
                 <div className="absolute -left-[7rem] sm:-left-[10rem] top-[8rem]">
@@ -100,7 +100,7 @@ function SectionSix() {
                     </div>
                     <div className="w-full mt-8 px-8 flex justify-end">
                       <svg
-                      className="w-32"
+                        className="w-32"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 68.204 25.408"
                       >
@@ -128,14 +128,14 @@ function SectionSix() {
                           />
                           <line
                             id="Line_7"
-                            data-name="Line 7"
+                            dataName="Line 7"
                             y1="12"
                             x2="10"
                             transform="translate(519.5 8934.5)"
                             fill="none"
                             stroke="#be6c42"
-                            stroke-linecap="round"
-                            stroke-width="1"
+                            strokeLinecap="round"
+                            strokeWidth="1"
                           />
                         </g>
                       </svg>
@@ -143,7 +143,7 @@ function SectionSix() {
                   </>
                 ) : null}
                 {item.button ? (
-                  <button className="mt-[30rem] text-primary border-primary border text-xl py-4 px-10 float-right">
+                  <button className="mt-[30rem] w-[120%] xxs:w-auto text-primary border-primary border text-xl py-4 px-10 float-right">
                     Browse Collections
                   </button>
                 ) : null}

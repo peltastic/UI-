@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 function SectionTwo() {
   return (
     <section className="relative">
-      <div className="bg-color1 py-2 flex justify-between w-full">
+      <div className="bg-color1 text-[#fff] py-2 flex justify-between w-full">
         <Marquee gradient={false}>
           <p className="text-white mr-[5rem] text-3xl">
             THE PRESENT IS FEMALE: THE DESIGNERS BEHIND A FASHION REVOLUTION
@@ -40,7 +40,7 @@ function SectionTwo() {
 
         <div className="flex flex-wrap mb-[70rem] mt-24 w-full sm:w-[85%] mid2:w-[70%] text-primary">
           <div className=" flex items-center xs:block xs:border-r border-color1 w-full xs:w-[50%] pt-2 pb-[6rem] pr-[4rem]">
-            <p className=" mr-[3rem] xs:mr-0 text-left xs:text-right text-2xl">
+            <p className=" hidden xxs:block mr-[3rem] xs:mr-0 text-left xs:text-right text-2xl">
               <span>Still, what we never reckoned with then was the</span>
               <br />
               <span>notion that the achievement of women designers</span>
