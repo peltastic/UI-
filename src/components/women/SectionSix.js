@@ -112,8 +112,8 @@ function SectionSix() {
                             transform="translate(462.5 8934.5)"
                             fill="none"
                             stroke="#be6c42"
-                            stroke-linecap="round"
-                            stroke-width="1"
+                            strokeLinecap="round"
+                            strokeWidth="1"
                           />
                           <line
                             id="Line_6"
@@ -123,12 +123,12 @@ function SectionSix() {
                             transform="translate(519.5 8922.5)"
                             fill="none"
                             stroke="#be6c42"
-                            stroke-linecap="round"
-                            stroke-width="1"
+                            strokeLinecap="round"
+                            strokeWidth="1"
                           />
                           <line
                             id="Line_7"
-                            dataName="Line 7"
+                            data-name="Line 7"
                             y1="12"
                             x2="10"
                             transform="translate(519.5 8934.5)"

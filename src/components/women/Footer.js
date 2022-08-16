@@ -17,7 +17,7 @@ function Footer() {
         <div className="mr-auto w-[40%]">
           <div className="w-full py-4 border-b border-b-color1 text-2xl">
             <h2>Want to be the first to know?</h2>
-            <h2 cla>FOLLOW US ON SOCIALs</h2>
+            <h2 >FOLLOW US ON SOCIALs</h2>
           </div>
           <div className="flex text-xl pt-[7rem] w-[30%]">
             <h1 className="pr-28">Instagram</h1>

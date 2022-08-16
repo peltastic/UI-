@@ -9,13 +9,13 @@ function Nav() {
       </div>
       <ul className="flex mr-[7rem] items-center text-primary text-xl">
         <li className="mx-[3rem]">
-          <a className=" border-b py-1 border-color1">Collection</a>
+          <a href="#" className=" border-b py-1 border-color1">Collection</a>
         </li>
         <li className="mx-[3rem]">
-          <a>LookBook</a>
+          <a href="#">LookBook</a>
         </li>
         <li className="mx-[3rem]">
-          <a>About</a>
+          <a href="#">About</a>
         </li>
       </ul>
       <div className=" h-[4rem] mt-[2rem] relative">
